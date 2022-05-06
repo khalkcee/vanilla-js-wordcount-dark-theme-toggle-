@@ -1,0 +1,98 @@
+body {
+    background-color: var(--primary-bg);
+    color: var(--primary-txt);
+    font-family: 'Roboto Mono', sans-serif;
+    padding: 50px;
+}
+
+select {
+    padding: 5px;
+}
+.header-container{
+    /* align-items: center; */
+    width: 100%;
+    text-transform: uppercase;
+    justify-content: center;
+    display: flex;
+    background-color: var(--accent-bg);
+    color: var(--primary-txt);
+    padding: 6px;
+    border-radius: 15px;
+    font-weight: bolder;
+    /* float: right; */
+    margin-bottom: 5px;
+}
+.header-container2 {
+    /* align-items: center; */
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    background-color: var(--accent-bg);
+    color: var(--primary-accent-text);
+    padding: 2px 5px;
+    border-radius: 15px;
+    font-weight: bolder;
+    /* float: right; */
+    margin-bottom: 5px;
+}
+
+
+.container {
+    background-color: #D9DBF1;
+    padding: 12px 30px 80px 30px;
+    border-radius: 8px;
+    box-shadow: 0 30px 50px rgba(30, 21, 49, 0.3);
+    max-width: 100%;
+
+}
+.info{
+    color: var(--primary-accent-text);
+}
+#themeSelect{
+    width: 100%;
+    padding: 5px ;
+    border-radius: 50px;
+    background-color: var(--primary-bg);
+    color: var(--primary-txt);
+    font-size: 1rem;
+    font-weight: bolder;
+    
+}
+
+
+textarea {
+    width: 100%;
+    border: none;
+    resize: none;
+    outline: none;
+    font-size: 22px;
+    font-weight: bolder;
+    line-height: 28px;
+    color: var(--primary-txt);
+    background-color: #D9DBF1;
+    margin-top: 30px;
+}
+
+.count {
+    background-color:var(--primary-bg) ;
+    width: 80%;
+    padding: 20px;
+    position: relative;
+    transform: translate(-50%, -30%);
+    left: 50%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 20px 40px rgba(30, 21, 49, 0.4);
+}
+
+.count p {
+    color: var(--primary-accent-text);
+    font-weight: bold;
+}
+
+.count h5 {
+        color: #0B3948;
+    font-size: 32px;
+}
